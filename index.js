@@ -13,7 +13,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
-mongoose.connect('mongodb+srv://mongouser:mongouser@cluster0.c4yrp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://admin:adminpass123@maincluster.ru7hy9r.mongodb.net/?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
